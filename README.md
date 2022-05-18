@@ -12,3 +12,8 @@
 C:> git config --global user.name "iamsaver"
 C:> git config --global user.email "iamsaver@gmail.com" 
 
+### Flask Web Development
+1.(check-point 3) simple flask web
+  *return 'Hello World'
+  *return <h1>Hello World big font</h1>
+  *return app.send_static_file('index.html')==>
