@@ -1,10 +1,10 @@
-from flask import flask
+from flask import Flask
 
-app=Flask(_name_)
+app=Flask(__name__)
 
 @app.route('/index/')
 @app.route('/')
 def index():
     return "<h2>This is my IOT web</h2>"
-if _name_ =='_main_':
+if __name__ =='_main_':
     app.run()
